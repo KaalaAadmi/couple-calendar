@@ -1,0 +1,19 @@
+UI:
+  - make the popup labels and fields in the same line. @done
+  - modify function @done
+  - delete function @done
+  - get all events function @done
+  - connect create event to backend @done
+  - beautify buttons @done
+  - choose colours for buttons @done
+  - set hex codes for colours @done
+  - fix navbar @done
+  - add toast@done
+  - fix 'add-event' date picker location @done
+  - radio buttons not working @done
+  - add-event and modify-event title takes only one character
+  - add event to be a popup in navbar. 
+
+API: 
+  - delete @done
+  - modify @done

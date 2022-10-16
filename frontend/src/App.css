@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.modal-show {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  height: 50%;
+  width: 50%;
+  border-radius: 10px;
+  padding: 2%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.modal-hide {
+  display: none;
+}
+
+.popup-show {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: auto;
+  height: 50%;
+  width: 50%;
+  border-radius: 10px;
+  padding: 2%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.popup-hide {
+  display: none;
+}
+
+.popup__headers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popup__title {
+  width: 100%;
+}
+
+.btn-close:hover, .btn-delete:hover, .btn-modify:hover, .btn-add:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn-close {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 0px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn-modify {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 0px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn-delete{
+  background-color:red;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 0px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.navbar {
+  height: 60px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  /* padding:20px; */
+}
+
+.title{
+  font-weight: 700;
+  font-size:28px;
+  padding-left: 20px;
+}
+
+.btn-add{
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 0px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
